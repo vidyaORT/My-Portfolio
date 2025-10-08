@@ -484,3 +484,66 @@ img {
     width: 450px;
   }
 }
+
+/* ===== QUALIFICATIONS SECTION ===== */
+.qualification__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  column-gap: 2rem;
+  row-gap: 2rem;
+  align-items: start;
+}
+
+/* .section-title {
+  text-align: center;
+  font-size: var(--h2-font-size);
+  color: var(--second-color);
+  margin-bottom: var(--mb-4);
+} */
+
+.section-title .highlight {
+  color: var(--first-color);
+}
+
+.qualification__title {
+  font-size: 1.25rem;
+  font-weight: var(--font-semi);
+  margin-bottom: var(--mb-2);
+  color: var(--second-color);
+  text-align: left;
+}
+
+.qualification__data {
+  background-color: #fff;
+  border-left: 4px solid var(--first-color);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem;
+  padding: 1rem 1.5rem;
+  margin-bottom: var(--mb-2);
+  transition: 0.3s ease;
+}
+
+.qualification__data:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+}
+
+.qualification__degree {
+  font-weight: 600;
+  color: var(--second-color);
+  margin-bottom: 0.25rem;
+}
+
+.qualification__university {
+  font-size: 0.9rem;
+  color: #777;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.qualification__description {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.5;
+}
+
